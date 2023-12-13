@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div class="main-top">
+                <div>
+                    <div class="main-title">
+                        <div class="h-100">
+                            <img src="./images/dashboard.png" />
+                        </div>
+                        <h2>Dashboard</h2>
+                        <small class="main-version">v.01</small>
+                    </div>
+                    <div class="menu">
+                        <div class="menu-item">
+                            <img src="./images/key.svg" class="menu-item-image" />
+                            Dashboard
+                        </div>
+                        <div class="menu-item">
+                            <img src="./images/product.svg" class="menu-item-image" />
+                            Product
+                            <div class="arrow">
+                                <img src="./images/arrow_right.svg" class="arrow-image" />
+                            </div>
+                        </div>
+                        <div class="menu-item menu-item-active">
+                            <img src="./images/customers.svg" class="menu-item-image" />
+                            Customers
+                            <div class="arrow">
+                                <img src="./images/arrow_right.svg" class="arrow-image" />
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./images/income.svg" class="menu-item-image" />
+                            Income
+                            <div class="arrow">
+                                <img src="./images/arrow_right.svg" class="arrow-image" />
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./images/promote.svg" class="menu-item-image" />
+                            Promote
+                            <div class="arrow">
+                                <img src="./images/arrow_right.svg" class="arrow-image" />
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./images/help.svg" class="menu-item-image" />
+                            Help
+                            <div class="arrow">
+                                <img src="./images/arrow_right.svg" class="arrow-image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./images/user.jpg" class="user-image" />
+                    <div class="user-info">
+                        <small class="user-name">
+                            Evano
+                        </small>
+                        <small class="user-role">
+                            Project manager
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Hello Evano</h3>
+                <div class="content-rounded">
+                    <div class="content-top">
+                        <div>
+                            <h3>All Customers</h3>
+                            <div class="text-green text-size">
+                                Active members
+                            </div>
+                        </div>
+                        <div class="container-search">
+                            <span class="icon"><img src="./images/search.svg" class="icon-search"/></span>
+                            <input type="search" id="search" placeholder="Search" />
+                        </div>
+                    </div>
+                    <table class="text-size">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    Customer Name
+                                </th>
+                                <th scope="col">
+                                    Company
+                                </th>
+                                <th scope="col">
+                                    Phone Number
+                                </th>
+                                <th scope="col">
+                                    Email
+                                </th>
+                                <th scope="col">
+                                    Country
+                                </th>
+                                <th scope="col" class="text-center">
+                                    Status
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Jane Cooper
+                                </td>
+                                <td data-label="Company">
+                                    Microsoft
+                                </td>
+                                <td data-label="Phone Number">
+                                    (255) 555-0118
+                                </td>
+                                <td data-label="Email">
+                                    jane@microsoft.com
+                                </td>
+                                <td data-label="Country">
+                                    United States
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-green text-size w-100">
+                                        Active
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Floyd Miles
+                                </td>
+                                <td data-label="Company">
+                                    Yahoo
+                                </td>
+                                <td data-label="Phone Number">
+                                    (205) 555-0100
+                                </td>
+                                <td data-label="Email">
+                                    floyd@yahoo.com
+                                </td>
+                                <td data-label="Country">
+                                    Kiribati
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-red text-size w-100">
+                                        Inactive
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Ronald Richards
+                                </td>
+                                <td data-label="Company">
+                                    Adobe
+                                </td>
+                                <td data-label="Phone Number">
+                                    (302) 555-0107
+                                </td>
+                                <td data-label="Email">
+                                    ronald@adobe.com
+                                </td>
+                                <td data-label="Country">
+                                    Israel
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-red text-size w-100">
+                                        Inactive
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Marvin McKinney
+                                </td>
+                                <td data-label="Company">
+                                    Tesla
+                                </td>
+                                <td data-label="Phone Number">
+                                    (252) 555-0126
+                                </td>
+                                <td data-label="Email">
+                                    marvin@tesia.com
+                                </td>
+                                <td data-label="Country">
+                                    Iran
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-green text-size w-100">
+                                        Active
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Jerome Bell
+                                </td>
+                                <td data-label="Company">
+                                    Google
+                                </td>
+                                <td data-label="Phone Number">
+                                    (629) 555-0129
+                                </td>
+                                <td data-label="Email">
+                                    jerome@google.com
+                                </td>
+                                <td data-label="Country">
+                                    Réunion
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-green text-size w-100">
+                                        Active
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Kathryn Murphy
+                                </td>
+                                <td data-label="Company">
+                                    Microsoft
+                                </td>
+                                <td data-label="Phone Number">
+                                    (406) 555-0120
+                                </td>
+                                <td data-label="Email">
+                                    kathryn@microsoft.com
+                                </td>
+                                <td data-label="Country">
+                                    Curagao
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-green text-size w-100">
+                                        Active
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Jacob Jones
+                                </td>
+                                <td data-label="Company">
+                                    Yahoo
+                                </td>
+                                <td data-label="Phone Number">
+                                    (208) 555-0112
+                                </td>
+                                <td data-label="Email">
+                                    jacob@yahoo.com
+                                </td>
+                                <td data-label="Country">
+                                    Brazil
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-green text-size w-100">
+                                        Active
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-label="Customer Name">
+                                    Kristin Watson
+                                </td>
+                                <td data-label="Company">
+                                    Facebook
+                                </td>
+                                <td data-label="Phone Number">
+                                    (704) 585-0127
+                                </td>
+                                <td data-label="Email">
+                                    kristin@facebook.com
+                                </td>
+                                <td data-label="Country">
+                                    Aland islands
+                                </td>
+                                <td data-label="Status">
+                                    <button class="btn btn-red text-size w-100">
+                                        Inactive
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="content-footer text-size">
+                        <div class="text-gray">
+                            Showing data 1 to 8 or 256K entries
+                        </div>
+                        <div class="content-pagination">
+                            <button class="btn-square">˂</button>
+                            <button class="btn-square btn-square-active">1</button>
+                            <button class="btn-square">2</button>
+                            <button class="btn-square">3</button>
+                            <button class="btn-square">4</button>
+                            <div class="three-dots">...</div>
+                            <button class="btn-square">40</button>
+                            <button class="btn-square">˃</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
